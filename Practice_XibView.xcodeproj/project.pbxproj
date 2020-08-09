@@ -13,6 +13,8 @@
 		28452E8424E0BF6B001A1E8F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28452E8224E0BF6B001A1E8F /* Main.storyboard */; };
 		28452E8624E0BF6E001A1E8F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28452E8524E0BF6E001A1E8F /* Assets.xcassets */; };
 		28452E8924E0BF6E001A1E8F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28452E8724E0BF6E001A1E8F /* LaunchScreen.storyboard */; };
+		28452E9224E0C23D001A1E8F /* XibView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28452E9124E0C23D001A1E8F /* XibView.xib */; };
+		28452E9424E0C252001A1E8F /* XibView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28452E9324E0C252001A1E8F /* XibView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		28452E8524E0BF6E001A1E8F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		28452E8824E0BF6E001A1E8F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		28452E8A24E0BF6E001A1E8F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		28452E9124E0C23D001A1E8F /* XibView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = XibView.xib; sourceTree = "<group>"; };
+		28452E9324E0C252001A1E8F /* XibView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XibView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,7 @@
 		28452E7B24E0BF6B001A1E8F /* Practice_XibView */ = {
 			isa = PBXGroup;
 			children = (
+				28452E9024E0C0D0001A1E8F /* ViewControllers */,
 				28452E7C24E0BF6B001A1E8F /* AppDelegate.swift */,
 				28452E7E24E0BF6B001A1E8F /* SceneDelegate.swift */,
 				28452E8024E0BF6B001A1E8F /* MainViewController.swift */,
@@ -65,6 +70,15 @@
 				28452E8A24E0BF6E001A1E8F /* Info.plist */,
 			);
 			path = Practice_XibView;
+			sourceTree = "<group>";
+		};
+		28452E9024E0C0D0001A1E8F /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				28452E9124E0C23D001A1E8F /* XibView.xib */,
+				28452E9324E0C252001A1E8F /* XibView.swift */,
+			);
+			path = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,6 +141,7 @@
 			files = (
 				28452E8924E0BF6E001A1E8F /* LaunchScreen.storyboard in Resources */,
 				28452E8624E0BF6E001A1E8F /* Assets.xcassets in Resources */,
+				28452E9224E0C23D001A1E8F /* XibView.xib in Resources */,
 				28452E8424E0BF6B001A1E8F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -140,6 +155,7 @@
 			files = (
 				28452E8124E0BF6B001A1E8F /* MainViewController.swift in Sources */,
 				28452E7D24E0BF6B001A1E8F /* AppDelegate.swift in Sources */,
+				28452E9424E0C252001A1E8F /* XibView.swift in Sources */,
 				28452E7F24E0BF6B001A1E8F /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
