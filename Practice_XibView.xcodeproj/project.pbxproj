@@ -16,10 +16,10 @@
 		28452E9224E0C23D001A1E8F /* XibView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28452E9124E0C23D001A1E8F /* XibView.xib */; };
 		28452E9424E0C252001A1E8F /* XibView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28452E9324E0C252001A1E8F /* XibView.swift */; };
 		28452E9824E0CF6A001A1E8F /* First.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28452E9724E0CF6A001A1E8F /* First.storyboard */; };
-		28452E9F24E15B44001A1E8F /* SecondView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28452E9E24E15B44001A1E8F /* SecondView.xib */; };
+		28452E9F24E15B44001A1E8F /* SecondXibView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28452E9E24E15B44001A1E8F /* SecondXibView.xib */; };
 		28452EA124E15EDC001A1E8F /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28452EA024E15EDC001A1E8F /* FirstViewController.swift */; };
-		28452EA324E1603C001A1E8F /* ThirdView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28452EA224E1603C001A1E8F /* ThirdView.xib */; };
-		28452EA524E160CC001A1E8F /* ThirdView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28452EA424E160CC001A1E8F /* ThirdView.swift */; };
+		28452EA324E1603C001A1E8F /* OtherXibView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28452EA224E1603C001A1E8F /* OtherXibView.xib */; };
+		28452EA524E160CC001A1E8F /* OtherXibView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28452EA424E160CC001A1E8F /* OtherXibView.swift */; };
 		28452EA924E161F1001A1E8F /* Second.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28452EA824E161F1001A1E8F /* Second.storyboard */; };
 		28452EAB24E16200001A1E8F /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28452EAA24E16200001A1E8F /* SecondViewController.swift */; };
 		E192396248623D9688379C9D /* Pods_Practice_XibView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18D6BAFDAEBA0119F81C0E03 /* Pods_Practice_XibView.framework */; };
@@ -38,10 +38,10 @@
 		28452E9124E0C23D001A1E8F /* XibView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = XibView.xib; sourceTree = "<group>"; };
 		28452E9324E0C252001A1E8F /* XibView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XibView.swift; sourceTree = "<group>"; };
 		28452E9724E0CF6A001A1E8F /* First.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = First.storyboard; sourceTree = "<group>"; };
-		28452E9E24E15B44001A1E8F /* SecondView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SecondView.xib; sourceTree = "<group>"; };
+		28452E9E24E15B44001A1E8F /* SecondXibView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SecondXibView.xib; sourceTree = "<group>"; };
 		28452EA024E15EDC001A1E8F /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		28452EA224E1603C001A1E8F /* ThirdView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ThirdView.xib; sourceTree = "<group>"; };
-		28452EA424E160CC001A1E8F /* ThirdView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdView.swift; sourceTree = "<group>"; };
+		28452EA224E1603C001A1E8F /* OtherXibView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OtherXibView.xib; sourceTree = "<group>"; };
+		28452EA424E160CC001A1E8F /* OtherXibView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtherXibView.swift; sourceTree = "<group>"; };
 		28452EA824E161F1001A1E8F /* Second.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Second.storyboard; sourceTree = "<group>"; };
 		28452EAA24E16200001A1E8F /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		2BA8D05690D2D093949F7601 /* Pods-Practice_XibView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Practice_XibView.debug.xcconfig"; path = "Target Support Files/Pods-Practice_XibView/Pods-Practice_XibView.debug.xcconfig"; sourceTree = "<group>"; };
@@ -108,13 +108,29 @@
 		28452E9924E0D0B0001A1E8F /* XibViews */ = {
 			isa = PBXGroup;
 			children = (
-				28452E9324E0C252001A1E8F /* XibView.swift */,
-				28452E9124E0C23D001A1E8F /* XibView.xib */,
-				28452E9E24E15B44001A1E8F /* SecondView.xib */,
-				28452EA224E1603C001A1E8F /* ThirdView.xib */,
-				28452EA424E160CC001A1E8F /* ThirdView.swift */,
+				28452EAC24E165AF001A1E8F /* DefaultXibView */,
+				28452EAD24E165D0001A1E8F /* CustomizedXibView */,
 			);
 			path = XibViews;
+			sourceTree = "<group>";
+		};
+		28452EAC24E165AF001A1E8F /* DefaultXibView */ = {
+			isa = PBXGroup;
+			children = (
+				28452E9324E0C252001A1E8F /* XibView.swift */,
+				28452E9124E0C23D001A1E8F /* XibView.xib */,
+				28452E9E24E15B44001A1E8F /* SecondXibView.xib */,
+			);
+			path = DefaultXibView;
+			sourceTree = "<group>";
+		};
+		28452EAD24E165D0001A1E8F /* CustomizedXibView */ = {
+			isa = PBXGroup;
+			children = (
+				28452EA424E160CC001A1E8F /* OtherXibView.swift */,
+				28452EA224E1603C001A1E8F /* OtherXibView.xib */,
+			);
+			path = CustomizedXibView;
 			sourceTree = "<group>";
 		};
 		952362FD6EA03D81B70A5359 /* Pods */ = {
@@ -200,9 +216,9 @@
 				28452E9224E0C23D001A1E8F /* XibView.xib in Resources */,
 				28452E8424E0BF6B001A1E8F /* Main.storyboard in Resources */,
 				28452EA924E161F1001A1E8F /* Second.storyboard in Resources */,
-				28452EA324E1603C001A1E8F /* ThirdView.xib in Resources */,
+				28452EA324E1603C001A1E8F /* OtherXibView.xib in Resources */,
 				28452E9824E0CF6A001A1E8F /* First.storyboard in Resources */,
-				28452E9F24E15B44001A1E8F /* SecondView.xib in Resources */,
+				28452E9F24E15B44001A1E8F /* SecondXibView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,7 +293,7 @@
 				28452E7D24E0BF6B001A1E8F /* AppDelegate.swift in Sources */,
 				28452E9424E0C252001A1E8F /* XibView.swift in Sources */,
 				28452EAB24E16200001A1E8F /* SecondViewController.swift in Sources */,
-				28452EA524E160CC001A1E8F /* ThirdView.swift in Sources */,
+				28452EA524E160CC001A1E8F /* OtherXibView.swift in Sources */,
 				28452E7F24E0BF6B001A1E8F /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

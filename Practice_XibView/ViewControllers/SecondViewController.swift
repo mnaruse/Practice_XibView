@@ -9,13 +9,13 @@
 import UIKit
 
 class SecondViewController: UIViewController {
-    @IBOutlet private var thirdView: ThirdView!
+    @IBOutlet private var otherXibView: OtherXibView!
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-        thirdView.label.text = "Hello!"
+        otherXibView.label.text = "Hello!"
     }
 
     /*

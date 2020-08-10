@@ -15,14 +15,14 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ufE-Bz-Ijp" customClass="ThirdView" customModule="Practice_XibView" customModuleProvider="target">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ufE-Bz-Ijp" customClass="OtherXibView" customModule="Practice_XibView" customModuleProvider="target">
                                 <rect key="frame" x="40" y="84" width="334" height="500"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="500" id="5pV-2C-fMn"/>
                                 </constraints>
                                 <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="string" keyPath="nibName" value="ThirdView"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="nibName" value="OtherXibView"/>
                                 </userDefinedRuntimeAttributes>
                             </view>
                         </subviews>
@@ -35,7 +35,7 @@
                         <viewLayoutGuide key="safeArea" id="bFX-ft-bYw"/>
                     </view>
                     <connections>
-                        <outlet property="thirdView" destination="ufE-Bz-Ijp" id="Iac-B4-E2h"/>
+                        <outlet property="otherXibView" destination="ufE-Bz-Ijp" id="Iac-B4-E2h"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ctp-9R-ltl" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>

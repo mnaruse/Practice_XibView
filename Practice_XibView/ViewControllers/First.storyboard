@@ -32,7 +32,7 @@
                                     <constraint firstAttribute="height" constant="400" id="k3s-u0-PBD"/>
                                 </constraints>
                                 <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="string" keyPath="nibName" value="SecondView"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="nibName" value="SecondXibView"/>
                                 </userDefinedRuntimeAttributes>
                             </view>
                         </subviews>

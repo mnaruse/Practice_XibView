@@ -1,5 +1,5 @@
 //
-//  ThirdView.swift
+//  OtherXibView.swift
 //  Practice_XibView
 //
 //  Created by MiharuNaruse on 2020/08/10.
@@ -14,7 +14,7 @@ import Foundation
 import UIKit
 
 @IBDesignable
-class ThirdView: UIView {
+class OtherXibView: UIView {
     /// xibファイルで作成したview
     var contentView: UIView?
     /// xibファイルのタイトル。のちにStoryboard上で、Identity Inspectorからアクセスできるようにしたい(Step2参照)。
