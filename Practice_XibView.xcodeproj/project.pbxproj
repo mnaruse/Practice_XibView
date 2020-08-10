@@ -16,9 +16,11 @@
 		28452E9224E0C23D001A1E8F /* XibView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28452E9124E0C23D001A1E8F /* XibView.xib */; };
 		28452E9424E0C252001A1E8F /* XibView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28452E9324E0C252001A1E8F /* XibView.swift */; };
 		28452E9824E0CF6A001A1E8F /* First.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28452E9724E0CF6A001A1E8F /* First.storyboard */; };
+		E192396248623D9688379C9D /* Pods_Practice_XibView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18D6BAFDAEBA0119F81C0E03 /* Pods_Practice_XibView.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		18D6BAFDAEBA0119F81C0E03 /* Pods_Practice_XibView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Practice_XibView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		28452E7924E0BF6B001A1E8F /* Practice_XibView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Practice_XibView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		28452E7C24E0BF6B001A1E8F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		28452E7E24E0BF6B001A1E8F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -30,6 +32,8 @@
 		28452E9124E0C23D001A1E8F /* XibView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = XibView.xib; sourceTree = "<group>"; };
 		28452E9324E0C252001A1E8F /* XibView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XibView.swift; sourceTree = "<group>"; };
 		28452E9724E0CF6A001A1E8F /* First.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = First.storyboard; sourceTree = "<group>"; };
+		2BA8D05690D2D093949F7601 /* Pods-Practice_XibView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Practice_XibView.debug.xcconfig"; path = "Target Support Files/Pods-Practice_XibView/Pods-Practice_XibView.debug.xcconfig"; sourceTree = "<group>"; };
+		D3EEC251CB34BBF35BC4816D /* Pods-Practice_XibView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Practice_XibView.release.xcconfig"; path = "Target Support Files/Pods-Practice_XibView/Pods-Practice_XibView.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +41,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E192396248623D9688379C9D /* Pods_Practice_XibView.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -48,6 +53,8 @@
 			children = (
 				28452E7B24E0BF6B001A1E8F /* Practice_XibView */,
 				28452E7A24E0BF6B001A1E8F /* Products */,
+				952362FD6EA03D81B70A5359 /* Pods */,
+				C38C8A37DC758B45981D9BA0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -92,6 +99,24 @@
 			path = XibViews;
 			sourceTree = "<group>";
 		};
+		952362FD6EA03D81B70A5359 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2BA8D05690D2D093949F7601 /* Pods-Practice_XibView.debug.xcconfig */,
+				D3EEC251CB34BBF35BC4816D /* Pods-Practice_XibView.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C38C8A37DC758B45981D9BA0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				18D6BAFDAEBA0119F81C0E03 /* Pods_Practice_XibView.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -99,9 +124,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 28452E8D24E0BF6E001A1E8F /* Build configuration list for PBXNativeTarget "Practice_XibView" */;
 			buildPhases = (
+				EE0C660B3E2CD763DD71483A /* [CP] Check Pods Manifest.lock */,
 				28452E7524E0BF6B001A1E8F /* Sources */,
 				28452E7624E0BF6B001A1E8F /* Frameworks */,
 				28452E7724E0BF6B001A1E8F /* Resources */,
+				28452E9C24E131BE001A1E8F /* ShellScript */,
+				28452E9D24E131C0001A1E8F /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -159,6 +187,65 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		28452E9C24E131BE001A1E8F /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which \"${PODS_ROOT}/SwiftLint/swiftlint\" >/dev/null; then\n  git diff --name-only | grep .swift | while read filename; do\n    \"${PODS_ROOT}/SwiftLint/swiftlint\" --path \"$filename\" \n  done\nelse\n  echo \"SwiftLint does not exist, download from https://github.com/realm/SwiftLint\"\nfi\n";
+		};
+		28452E9D24E131C0001A1E8F /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which \"${PODS_ROOT}/SwiftFormat/CommandLineTool/swiftformat\" >/dev/null; then\n    \"${PODS_ROOT}/SwiftFormat/CommandLineTool/swiftformat\" \"$SRCROOT\" --verbose\nelse\n  echo \"SwiftFormat does not exist, download from https://github.com/nicklockwood/SwiftFormat\"\nfi\n";
+		};
+		EE0C660B3E2CD763DD71483A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Practice_XibView-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		28452E7524E0BF6B001A1E8F /* Sources */ = {
@@ -310,6 +397,7 @@
 		};
 		28452E8E24E0BF6E001A1E8F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2BA8D05690D2D093949F7601 /* Pods-Practice_XibView.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -328,6 +416,7 @@
 		};
 		28452E8F24E0BF6E001A1E8F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D3EEC251CB34BBF35BC4816D /* Pods-Practice_XibView.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

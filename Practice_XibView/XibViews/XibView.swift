@@ -50,8 +50,7 @@ class XibView: UIView {
         guard let nibName = nibName else { return nil }
         let bundle = Bundle(for: type(of: self))
         let nib = UINib(nibName: nibName, bundle: bundle)
-        return nib.instantiate(
-            withOwner: self,
-            options: nil).first as? UIView
+        return nib.instantiate(withOwner: self,
+                               options: nil).first as? UIView
     }
 }
