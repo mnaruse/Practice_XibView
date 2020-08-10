@@ -1,0 +1,71 @@
+# https://github.com/nicklockwood/SwiftFormat/blob/master/Rules.md
+
+# file options
+
+# --exclude Tests/XCTestManifests.swift,Snapshots
+--exclude Pods,Generated
+
+# rules, format options
+--enable andOperator
+--enable blankLinesAroundMark
+--enable blankLinesAtEndOfScope
+--enable blankLinesAtStartOfScope
+--enable blankLinesBetweenScopes
+--enable braces
+--allman true
+--enable consecutiveSpaces
+--enable elseOnSameLine
+--enable emptyBraces
+# --enable fileHeader
+--enable hoistPatternLet
+--enable indent
+--indent 4
+--indentcase true
+--enable isEmpty
+--enable leadingDelimiters
+--enable linebreakAtEndOfFile
+--enable modifierOrder
+# --enable numberFormatting
+# --enable preferKeyPath
+--enable redundantBackticks
+--enable redundantBreak
+--enable redundantExtensionACL
+--enable redundantFileprivate
+--enable redundantGet
+# --enable redundantInit
+# --enable redundantLet
+--enable redundantLetError
+--enable redundantNilInit
+--enable redundantObjc
+--enable redundantParens
+--enable redundantPattern
+# --enable redundantRawValues
+--enable redundantReturn
+--enable redundantSelf
+--enable redundantVoidReturnType
+--enable semicolons
+--enable sortedImports
+--enable spaceAroundBraces
+--enable spaceAroundBrackets
+--enable spaceAroundComments
+--enable spaceAroundGenerics
+--enable spaceAroundOperators
+--enable spaceAroundParens
+--enable spaceInsideBraces
+--enable spaceInsideBrackets
+--enable spaceInsideComments
+--enable spaceInsideGenerics
+--enable spaceInsideParens
+# strongOutlets: As per Apple's recommendation (https://developer.apple.com/videos/play/wwdc2015/407/ @ 32:30).
+--enable strongOutlets 
+--enable todos
+--enable trailingClosures
+# --enable trailingCommas
+--enable trailingSpace
+--enable typeSugar
+# --enable unusedArguments
+--enable void
+--enable wrapArguments
+--wrapparameters after-first
+# --enable wrapAttributes
+# --enable wrapMultilineStatementBraces
