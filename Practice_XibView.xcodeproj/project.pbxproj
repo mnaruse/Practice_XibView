@@ -13,9 +13,10 @@
 		28452E8424E0BF6B001A1E8F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28452E8224E0BF6B001A1E8F /* Main.storyboard */; };
 		28452E8624E0BF6E001A1E8F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28452E8524E0BF6E001A1E8F /* Assets.xcassets */; };
 		28452E8924E0BF6E001A1E8F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28452E8724E0BF6E001A1E8F /* LaunchScreen.storyboard */; };
-		28452E9224E0C23D001A1E8F /* XibView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28452E9124E0C23D001A1E8F /* XibView.xib */; };
+		28452E9224E0C23D001A1E8F /* FirstView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28452E9124E0C23D001A1E8F /* FirstView.xib */; };
 		28452E9424E0C252001A1E8F /* XibView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28452E9324E0C252001A1E8F /* XibView.swift */; };
 		28452E9824E0CF6A001A1E8F /* First.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28452E9724E0CF6A001A1E8F /* First.storyboard */; };
+		28452E9F24E15B44001A1E8F /* SecondView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28452E9E24E15B44001A1E8F /* SecondView.xib */; };
 		E192396248623D9688379C9D /* Pods_Practice_XibView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18D6BAFDAEBA0119F81C0E03 /* Pods_Practice_XibView.framework */; };
 /* End PBXBuildFile section */
 
@@ -29,9 +30,10 @@
 		28452E8524E0BF6E001A1E8F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		28452E8824E0BF6E001A1E8F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		28452E8A24E0BF6E001A1E8F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		28452E9124E0C23D001A1E8F /* XibView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = XibView.xib; sourceTree = "<group>"; };
+		28452E9124E0C23D001A1E8F /* FirstView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FirstView.xib; sourceTree = "<group>"; };
 		28452E9324E0C252001A1E8F /* XibView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XibView.swift; sourceTree = "<group>"; };
 		28452E9724E0CF6A001A1E8F /* First.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = First.storyboard; sourceTree = "<group>"; };
+		28452E9E24E15B44001A1E8F /* SecondView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SecondView.xib; sourceTree = "<group>"; };
 		2BA8D05690D2D093949F7601 /* Pods-Practice_XibView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Practice_XibView.debug.xcconfig"; path = "Target Support Files/Pods-Practice_XibView/Pods-Practice_XibView.debug.xcconfig"; sourceTree = "<group>"; };
 		D3EEC251CB34BBF35BC4816D /* Pods-Practice_XibView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Practice_XibView.release.xcconfig"; path = "Target Support Files/Pods-Practice_XibView/Pods-Practice_XibView.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -93,8 +95,9 @@
 		28452E9924E0D0B0001A1E8F /* XibViews */ = {
 			isa = PBXGroup;
 			children = (
-				28452E9124E0C23D001A1E8F /* XibView.xib */,
+				28452E9124E0C23D001A1E8F /* FirstView.xib */,
 				28452E9324E0C252001A1E8F /* XibView.swift */,
+				28452E9E24E15B44001A1E8F /* SecondView.xib */,
 			);
 			path = XibViews;
 			sourceTree = "<group>";
@@ -105,7 +108,6 @@
 				2BA8D05690D2D093949F7601 /* Pods-Practice_XibView.debug.xcconfig */,
 				D3EEC251CB34BBF35BC4816D /* Pods-Practice_XibView.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -180,9 +182,10 @@
 			files = (
 				28452E8924E0BF6E001A1E8F /* LaunchScreen.storyboard in Resources */,
 				28452E8624E0BF6E001A1E8F /* Assets.xcassets in Resources */,
-				28452E9224E0C23D001A1E8F /* XibView.xib in Resources */,
+				28452E9224E0C23D001A1E8F /* FirstView.xib in Resources */,
 				28452E8424E0BF6B001A1E8F /* Main.storyboard in Resources */,
 				28452E9824E0CF6A001A1E8F /* First.storyboard in Resources */,
+				28452E9F24E15B44001A1E8F /* SecondView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

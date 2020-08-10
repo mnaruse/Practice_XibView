@@ -22,13 +22,26 @@
                                     <constraint firstAttribute="height" constant="200" id="mka-a6-esi"/>
                                 </constraints>
                                 <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="string" keyPath="nibName" value="XibView"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="nibName" value="FirstView"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="f0d-Pg-TPQ" customClass="XibView" customModule="Practice_XibView" customModuleProvider="target">
+                                <rect key="frame" x="40" y="316" width="334" height="400"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="400" id="k3s-u0-PBD"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="nibName" value="SecondView"/>
                                 </userDefinedRuntimeAttributes>
                             </view>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
                             <constraint firstItem="8n1-qB-YKc" firstAttribute="top" secondItem="ejz-AU-OjH" secondAttribute="top" constant="40" id="2i4-OE-xgl"/>
+                            <constraint firstItem="f0d-Pg-TPQ" firstAttribute="leading" secondItem="ejz-AU-OjH" secondAttribute="leading" constant="40" id="Dz8-kZ-LyG"/>
+                            <constraint firstItem="ejz-AU-OjH" firstAttribute="trailing" secondItem="f0d-Pg-TPQ" secondAttribute="trailing" constant="40" id="Fao-uZ-Rpo"/>
+                            <constraint firstItem="f0d-Pg-TPQ" firstAttribute="top" secondItem="8n1-qB-YKc" secondAttribute="bottom" constant="32" id="XaL-3L-TeC"/>
                             <constraint firstItem="8n1-qB-YKc" firstAttribute="leading" secondItem="ejz-AU-OjH" secondAttribute="leading" constant="40" id="gB3-T4-jaZ"/>
                             <constraint firstItem="ejz-AU-OjH" firstAttribute="trailing" secondItem="8n1-qB-YKc" secondAttribute="trailing" constant="40" id="ueI-e9-qOc"/>
                         </constraints>
