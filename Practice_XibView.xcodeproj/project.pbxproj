@@ -95,8 +95,8 @@
 		28452E9924E0D0B0001A1E8F /* XibViews */ = {
 			isa = PBXGroup;
 			children = (
-				28452E9124E0C23D001A1E8F /* FirstView.xib */,
 				28452E9324E0C252001A1E8F /* XibView.swift */,
+				28452E9124E0C23D001A1E8F /* FirstView.xib */,
 				28452E9E24E15B44001A1E8F /* SecondView.xib */,
 			);
 			path = XibViews;
