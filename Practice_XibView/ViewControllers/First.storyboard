@@ -7,10 +7,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--First View Controller-->
         <scene sceneID="IN5-6t-oJE">
             <objects>
-                <viewController id="huN-sb-XsJ" sceneMemberID="viewController">
+                <viewController id="huN-sb-XsJ" customClass="FirstViewController" customModule="Practice_XibView" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="TTb-Lh-B29">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -22,7 +22,7 @@
                                     <constraint firstAttribute="height" constant="200" id="mka-a6-esi"/>
                                 </constraints>
                                 <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="string" keyPath="nibName" value="FirstView"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="nibName" value="XibView"/>
                                 </userDefinedRuntimeAttributes>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="f0d-Pg-TPQ" customClass="XibView" customModule="Practice_XibView" customModuleProvider="target">
