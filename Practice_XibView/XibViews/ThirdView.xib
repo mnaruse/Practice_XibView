@@ -11,6 +11,9 @@
             <userDefinedRuntimeAttributes>
                 <userDefinedRuntimeAttribute type="string" keyPath="nibName" value="ThirdView"/>
             </userDefinedRuntimeAttributes>
+            <connections>
+                <outlet property="label" destination="1Mb-Ad-Xv2" id="ZCP-NH-1O7"/>
+            </connections>
         </placeholder>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
         <view contentMode="scaleToFill" id="iN0-l3-epB">

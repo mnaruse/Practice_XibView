@@ -19,6 +19,7 @@ class ThirdView: UIView {
     var contentView: UIView?
     /// xibファイルのタイトル。のちにStoryboard上で、Identity Inspectorからアクセスできるようにしたい(Step2参照)。
     @IBInspectable var nibName: String?
+    @IBOutlet var label: UILabel!
 
     override func prepareForInterfaceBuilder() {
         // Interface Builder上で、オブジェクトが作成されたときに呼び出される処理。
